@@ -1,0 +1,9 @@
+nav-bar {
+    display: flex;
+    background-color: #796D92;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    font-style: bold;
+    
+}
