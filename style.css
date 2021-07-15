@@ -7,3 +7,15 @@
     font-style: bold;
     
 }
+h1 {
+    text-align: center;
+    color: #633fab;
+    font-size: 50px;
+    font-family: Oxanium;
+}
+h2 {
+    text-align: center;
+    color: #796D92;
+    font-size: 25px;
+    font-family: oxaium;
+}
