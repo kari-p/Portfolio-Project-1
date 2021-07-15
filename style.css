@@ -11,12 +11,36 @@ h1 {
     text-align: center;
     color: #633fab;
     font-size: 70px;
-    font-family: oxanium;
+    font-family: Oxanium;
 }
 
 h2 {
     text-align: center;
     color: #796D92;
     font-size: 25px;
-    font-family: oxanium;
+    font-family: Oxanium;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.image {
+    height: 400px;
+    width: 200px;
+    object-fit: contain;
+
+
+}
+
+
+.introduction {
+    border: 2px solid #633fab;
+    max-height: 400px;
+    max-width: 200px;
+    font-style: Oxanium;
 }
