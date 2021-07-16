@@ -1,12 +1,21 @@
+*{margin: 0px;}
+
 .nav-bar {
     display: flex;
     background-color: #796D92;
-    color: white;
     justify-content: space-between;
     align-items: center;
-    font-style: bold;
-    
+    padding: 15px;
 }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: oxanium;
+    font-style: bold;
+    font-size: 20px;
+}
+
 h1 {
     text-align: center;
     color: #633fab;
@@ -21,26 +30,10 @@ h2 {
     font-family: Oxanium;
 }
 
+
 .flex-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    margin: 10px;
-}
-
-.image {
-    height: 400px;
-    width: 200px;
-    object-fit: contain;
-
-
-}
-
-
-.introduction {
-    border: 2px solid #633fab;
-    max-height: 400px;
-    max-width: 200px;
-    font-style: Oxanium;
 }
