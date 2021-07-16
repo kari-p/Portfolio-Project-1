@@ -30,10 +30,41 @@ h2 {
     font-family: Oxanium;
 }
 
+section {
+    margin: 100px;
+}
 
-.flex-container {
+#introduction {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
+    justify-content: center;
+    font-family: oxanium;
+    color: #633fab;
+}
+
+img {
+    height: 200px;
+    width: 150px;
+}
+
+.introduction {
+    width: 50%;
+}
+
+.centered-text {
+    text-align: center;
+    font-family: oxanium;
+    color: #633fab;
+}
+
+.gray-box {
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+}
+
+.purple-box {
+    width: 100px;
+    height: 50px;
+    background-color: #796D92;
 }
