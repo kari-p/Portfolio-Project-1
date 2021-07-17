@@ -39,41 +39,31 @@ h2 {
     font-family: Oxanium;
 }
 
-section {
-    margin: 150px;
-}
 
 #introduction {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: oxanium;
-    color: #633fab;
-    margin-top: 50px;
-    padding-top:50px;
+    flex-direction: column;
 }
 
 img {
-    height: 10px;
-    width: 10px;
-}
-
-.introduction {
-    flex-direction: row;
-    width: 50%;
-    ;
+    height: 200px;
+    width: 150px;
 }
 
 .centered-text {
     text-align: center;
     font-family: oxanium;
     color: #633fab;
+    padding: 10px;
 }
 
 .centered-text2 { 
     text-align: center;
     font-family: oxanium;
-    color: white
+    color: white;
+    padding: 10px;
 }
 
 #nology-course {
