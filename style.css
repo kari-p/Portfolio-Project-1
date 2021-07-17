@@ -48,7 +48,7 @@ h2 {
     margin: 50px;
 }
 
-img {
+.image-karishma {
     display: flex;
     height: 200px;
     width: 150px;    
@@ -79,12 +79,29 @@ img {
 
 #projects {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin: 50px;
     padding-top: 50px;
 }
+
+.projects-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-project {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+        height: 260px;
+        margin: 50px;
+}
+    
 .gray-box {
     width: 300px;
     height: 100px;
@@ -155,8 +172,12 @@ img {
         justify-content: center;
     }
 
-    img {
+    .image-karishma {
         height: 350px;
         width: 250px;
+    }
+    .image-project {
+        width: 600px;
+        height: 390px;
     }
 }
