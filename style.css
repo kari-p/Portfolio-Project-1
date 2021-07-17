@@ -49,9 +49,9 @@ h2 {
 }
 
 img {
+    display: flex;
     height: 200px;
-    width: 150px;
-    
+    width: 150px;    
 }
 
 .centered-text {
@@ -85,7 +85,6 @@ img {
     margin: 50px;
     padding-top: 50px;
 }
-
 .gray-box {
     width: 300px;
     height: 100px;
