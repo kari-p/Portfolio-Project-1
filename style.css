@@ -9,7 +9,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-
 }
 
 nav a {
@@ -20,7 +19,6 @@ nav a {
     font-size: 15px;
     padding: 10px;
     justify-content: space-between;
-
 }
 
 h1 {
@@ -39,6 +37,10 @@ h2 {
     font-family: Oxanium;
 }
 
+.headings {
+    margin-top: 50px;
+    padding-top:50px;
+}
 
 #introduction {
     display: flex;
@@ -59,22 +61,40 @@ h2 {
     font-family: oxanium;
     color: #633fab;
     padding: 10px;
-    justify-content: center;
 }
 
 .centered-text2 { 
     text-align: center;
     font-family: oxanium;
     color: white;
-    padding: 10px;
+}
+
+div {
+    margin: 50px;
 }
 
 #nology-course {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    padding-top:50px;
+}
+    
+.gray-box {
+    width: 350px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.purple-box {
+    width: 350px;
+    height: 100px;
+    background-color: #796D92;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
 }
 
 #projects {
@@ -82,45 +102,53 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 50px;
-    padding-top: 50px;
 }
 
-.projects-icon {
+.project {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.image-project {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 370px;
-        height: 260px;
-        margin: 50px;
+
+.project-r {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
 }
-    
-.gray-box {
-    width: 300px;
+
+
+.image-project {
+    width: 400px;
+    height: 300px;
+}
+
+.gray-box2 {
+    width: 350px;
     height: 100px;
     background-color: gray;
     border-radius: 10px;
-    text-align: center;
     margin: 10px;
     padding: 10px;
 }
 
-.purple-box {
-    width: 300px;
+.purple-box2 {
+    width: 350px;
     height: 100px;
     background-color: #796D92;
     border-radius: 10px;
     margin: 10px;
-    text-align: center;
     padding: 10px;
+}
 
+.centered-text3 { 
+    text-align: center;
+    font-family: oxanium;
+    color: white;
 }
 
 #contact-me {
@@ -128,29 +156,22 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    padding-top: 50px;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
-.logo div {
-    display: flex;
-    height: 100px; 
-    width: 100px;
-    padding: 15px;
+    padding-top:50px;
 }
 
 .logo img {
-    width: 100%;
-    height: 100%;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
 }
 
+
 @media screen and (min-width: 700px) {
+
+    .headings {
+    font-size: 70px;
+    }
+
     .gray-box {
         display: flex;
         width: 650px;
@@ -159,17 +180,25 @@ h2 {
         display: flex;
         width: 650px;
     }
+    .gray-box2 {
+        display: flex;
+        width: 650px;
+    }
+    .purple-box2 {
+        display: flex;
+        width: 650px;
+    }
 
     .centered-text {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        font-size: x-large;
     }
     
     .centered-text2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        font-size: x-large;
+    }
+    
+    .centered-text3 {
+        font-size: x-large;
     }
 
     .image-karishma {
@@ -179,5 +208,14 @@ h2 {
     .image-project {
         width: 600px;
         height: 390px;
+    }
+    .logo img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .image-project {
+        width: 650px;
+        height: 400px;
     }
 }
