@@ -24,8 +24,9 @@ nav a {
 h1 {
     text-align: center;
     color: #633fab;
-    font-size: 40px;
+    font-size: 70px;
     font-family: Oxanium;
+    margin: 70px;
     animation: color-change 1s infinite;
 }
 
@@ -166,7 +167,7 @@ div {
 
 @media screen and (min-width: 700px) {
     h1 {
-        font-size: 70px;
+        font-size: 90px;
     }
 
     .gray-box {
