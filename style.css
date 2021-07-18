@@ -26,8 +26,7 @@ h1 {
     color: #633fab;
     font-size: 40px;
     font-family: Oxanium;
-    margin-top: 40px;
-    padding-top:40px;
+    animation: color-change 1s infinite;
 }
 
 h2 {
@@ -165,11 +164,9 @@ div {
     height: 60px;
 }
 
-
 @media screen and (min-width: 700px) {
-
-    .headings {
-    font-size: 70px;
+    h1 {
+        font-size: 70px;
     }
 
     .gray-box {
@@ -218,4 +215,9 @@ div {
         width: 650px;
         height: 400px;
     }
+}
+
+@keyframes color-change {
+    from { color: black }
+    to { color: #633fab;}
 }
