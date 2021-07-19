@@ -37,9 +37,8 @@ h2 {
     font-family: Oxanium;
 }
 
-.headings {
-    margin-top: 50px;
-    padding-top:50px;
+section {
+    margin-top: 150px;
 }
 
 #introduction {
@@ -47,7 +46,6 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 50px;
 }
 
 .image-karishma {
@@ -104,13 +102,13 @@ div {
     flex-direction: column;
 }
 
-.project {
+.project-g {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
 }
-
 
 .project-r {
     display: flex;
@@ -119,7 +117,6 @@ div {
     flex-wrap: wrap;
     flex-direction: row-reverse;
 }
-
 
 .image-project {
     width: 400px;
@@ -154,8 +151,6 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    padding-top:50px;
 }
 
 .logo img {
@@ -165,10 +160,17 @@ div {
 }
 
 @media screen and (min-width: 700px) {
+    nav a {
+        font-size: 20px;
+    }
+
     h1 {
         font-size: 90px;
     }
 
+    .headings {
+        font-size: 50px;
+    }
     .gray-box {
         display: flex;
         width: 650px;
