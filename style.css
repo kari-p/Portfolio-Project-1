@@ -9,6 +9,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    animation: pulse 5s infinite;
 }
 
 nav a {
@@ -206,4 +207,13 @@ div {
 @keyframes color-change {
     from { color: black }
     to { color: #633fab;}
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #796D92;
+    }
+    100% {
+        background-color: #633fab;
+    }
 }
