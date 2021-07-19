@@ -118,7 +118,6 @@ div {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-
 }
 
 
@@ -178,14 +177,6 @@ div {
         display: flex;
         width: 650px;
     }
-    .gray-box2 {
-        display: flex;
-        width: 650px;
-    }
-    .purple-box2 {
-        display: flex;
-        width: 650px;
-    }
 
     .centered-text {
         font-size: x-large;
@@ -203,18 +194,10 @@ div {
         height: 350px;
         width: 250px;
     }
-    .image-project {
-        width: 600px;
-        height: 390px;
-    }
+
     .logo img {
         width: 120px;
         height: 120px;
-    }
-
-    .image-project {
-        width: 650px;
-        height: 400px;
     }
 }
 
