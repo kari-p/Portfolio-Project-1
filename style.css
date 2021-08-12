@@ -62,6 +62,13 @@ section {
     padding: 20px;
 }
 
+.trello-board {
+    display: flex;
+    height: 200px;
+    width: 375px; 
+    padding: 20px;
+}
+
 .data-story {
     display: flex;
     height: 200px;
@@ -250,6 +257,13 @@ div {
         height: 300px;
         width: 450px;    
     }    
+
+    .trello-board {
+        display: flex;
+        height: 300px;
+        width: 550px;   
+    }
+
     .data-story {
         display: flex;
         height: 400px;
