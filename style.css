@@ -55,24 +55,18 @@ section {
     width: 150px;    
 }
 
-.psm1-image {
+.project-images {
     display: flex;
     height: 220px;
     width: 300px;
     padding: 20px;
+
 }
 
-.trello-board {
+.psm1-image {
     display: flex;
-    height: 200px;
-    width: 375px; 
-    padding: 20px;
-}
-
-.data-story {
-    display: flex;
-    height: 200px;
-    width: 375px; 
+    height: 220px;
+    width: 300px;
     padding: 20px;
 }
 
@@ -183,9 +177,6 @@ div {
     padding: 10px;
 }
 
-
-
-
 .centered-text3 { 
     text-align: center;
     font-family: oxanium;
@@ -258,17 +249,14 @@ div {
         width: 450px;    
     }    
 
-    .trello-board {
+    .project-images {
         display: flex;
         height: 300px;
-        width: 550px;   
+        width: 550px; 
+        padding: 20px;
+        margin: 20px;
     }
 
-    .data-story {
-        display: flex;
-        height: 400px;
-        width: 700px; 
-    }
     .logo img {
         width: 120px;
         height: 120px;
